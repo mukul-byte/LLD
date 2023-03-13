@@ -1,6 +1,5 @@
-package com.example.designpatterns;
+package com.example.ticTacToe;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import ticTacToe.models.Board;
 import ticTacToe.models.Game;
@@ -11,10 +10,8 @@ import ticTacToe.strategy.playerStrategy.MediumPlayerStrategy;
 import ticTacToe.strategy.playingStrategy.RoundRobinPlayingStrategy;
 import ticTacToe.strategy.winningStrategy.SimpleWinningStrategy;
 
-import java.util.List;
-
 @SpringBootApplication
-public class DesignPatternsApplication {
+public class TicTacToeApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(DesignPatternsApplication.class, args);
         HumanPlayer humanPlayer = HumanPlayer.builder()

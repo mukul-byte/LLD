@@ -1,4 +1,4 @@
-package com.example.designpatterns;
+package com.example.ticTacToe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
